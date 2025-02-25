@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node index.js"
   },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/samaysamapt"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joblessgod/samaysamapt.git"
