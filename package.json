@@ -1,0 +1,25 @@
+{
+  "name": "samaysamapt",
+  "version": "1.0.0",
+  "description": "Time Count Down",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joblessgod/samaysamapt.git"
+  },
+  "keywords": [
+    "TimeCountDown"
+  ],
+  "author": "JobLessGod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joblessgod/samaysamapt/issues"
+  },
+  "homepage": "https://github.com/joblessgod/samaysamapt#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
