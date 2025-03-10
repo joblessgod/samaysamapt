@@ -7,8 +7,8 @@
     "test": "node index.js"
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com/package/samaysamapt"
-  },
+  "registry":"https://npm.pkg.github.com/@joblessgod"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joblessgod/samaysamapt.git"
