@@ -1,21 +1,17 @@
 {
   "name": "samaysamapt",
-  "version": "1.0.2",
-  "description": "Time Count Down",
+  "version": "1.0.5",
+  "description": "Last updated: Tue Feb 25 2025 14:45:05 GMT+0545 (Nepal Time)",
   "main": "index.js",
-  "scripts": {
-    "test": "node index.js"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@joblessgod"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "TimeCountDown"
   ],
-  "author": "JobLessGod",
-  "license": "ISC",
-  "homepage": "https://github.com/joblessgod/samaysamapt#readme",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "author": "",
+  "license": "ISC"
 }
