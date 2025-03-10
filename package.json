@@ -1,6 +1,6 @@
 {
   "name": "samaysamapt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Time Count Down",
   "main": "index.js",
   "scripts": {
