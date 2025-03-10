@@ -1,7 +1,7 @@
-function TimeShow() {
-    return new Date();
+const sayHello = function (name) {
+    console.log("Hello " + name + "!")
 }
 
 module.exports = {
-    TimeShow
+    sayHello
 }
