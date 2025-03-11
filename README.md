@@ -1,2 +1,26 @@
-## This Package shows time
-Last updated: Tue Feb 25 2025 14:45:05 GMT+0545 (Nepal Time)
+## Test Less Test
+
+Welcome to the demo readme for the `samaysamapt` package.
+
+### Installation
+
+```bash
+npm install samaysamapt
+```
+
+### Usage
+
+```javascript
+const samaysamapt = require('samaysamapt');
+
+console.log(samaysamapt.getCurrentTime());
+```
+
+### Features
+
+- Shows the current time
+- Supports multiple time zones
+
+### License
+
+This project is licensed under the MIT License.
