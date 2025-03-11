@@ -1,30 +1,40 @@
-## Test Less Test
+# Samaysamapt
 
-Welcome to the demo readme for the `samaysamapt` package.
+A simple Node.js module to get the current date and time in a formatted string.
 
-### Installation
+## Installation
 
-```bash
+You can install this package using npm:
+
+```sh
 npm install samaysamapt
 ```
 
-### Usage
+## Usage
+
+Here is an example of how to use the `samaysamapt` module:
 
 ```javascript
 const samaysamapt = require('samaysamapt');
 
-console.log(samaysamapt.getCurrentTime());
+const formattedDateTime = samaysamapt();
+console.log(formattedDateTime); // Outputs: "DD/MM/YYYY HH:MM:SS AM/PM"
 ```
 
-### Features
+## Functionality
 
-- Shows the current time
-- Supports multiple time zones
+The module returns the current date and time in the following format:
 
-### Contributing
+```
+DD/MM/YYYY HH:MM:SS AM/PM
+```
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+For example, the output could be:
 
-### License
+```
+25/12/2023 10:30:45 AM
+```
+
+## License
 
 This project is licensed under the MIT License.
