@@ -21,15 +21,18 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
       - name: Publish
         run: npm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Tag release
+      - name: Commit release
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git tag "v${{ steps.check.outputs.new_version }}"
-          git push origin main --tags
-          echo "Tagged release"
+          git add .
+          git commit -m "Release new version"
+          git push origin main
+          echo "Committed release"
+          
