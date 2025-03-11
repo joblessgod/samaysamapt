@@ -40,7 +40,13 @@ jobs:
 
       - name: Version Bump
         if: steps.check.outputs.version_changed == 'false'
-        run: npm version patch
+        run: |
+          CURRENT_VERSION=$(jq -r .version package.json)
+          NEW_VERSION=$(npm version patch -m "Bump version to %s")
+          echo "Version bumped from $CURRENT_VERSION to $NEW_VERSION"
+          git add package.json
+          git commit -m "Bump version to $NEW_VERSION"
+          git push origin main
 
       - name: Publish
         if: steps.check.outputs.version_changed == 'true'
