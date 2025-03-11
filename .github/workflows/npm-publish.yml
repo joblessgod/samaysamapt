@@ -20,7 +20,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Check the version
         id: check
