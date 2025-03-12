@@ -1,6 +1,6 @@
 {
   "name": "samaysamapt",
-  "version": "1.2.4",
+  "version": "1.0.2",
   "description": "Last updated: Tue Feb 25 2025 14:45:05 GMT+0545 (Nepal Time)",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joblessgod/samaysamapt"
+    "url": "git+https://github.com/joblessgod/samaysamapt.git"
   },
   "homepage": "https://github.com/joblessgod/samaysamapt",
   "keywords": [
     "TimeCountDown"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "JobLessGod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joblessgod/samaysamapt/issues"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
+  },
+  "devDependencies": {}
 }
